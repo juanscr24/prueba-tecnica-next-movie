@@ -1,11 +1,10 @@
-import React from 'react'
 import { CardMS, TitlePage } from '@/components'
 
 const MoviesPage = () => {
     return (
         <div>
-            <TitlePage title='Popular Series'/>
-            <CardMS movies/>
+            <TitlePage title='Popular Movies' />
+            <CardMS movies />
         </div>
     )
 }

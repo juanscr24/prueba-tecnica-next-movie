@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className='flex flex-col justify-between h-screen'>
+        <div className='flex flex-col justify-between h-screen max-2xl:max-w-[1500px]'>
           <div>
             <Navbar />
             {children}
